@@ -1,0 +1,13 @@
+Introduction
+------------
+
+This straightforward Flask application makes it simple to publish a picture gallery that is located in a directory.
+To sort photos, use the unix modification time, putting the most recent at the top.
+
+
+To install dependencies--
+ $ pip3 install -r requirements.txt
+
+Note: The images must be in a directory pointed by GALLERY_ROOT_DIR settings.
+
+'''Used flask to create a basic web page where one can upload/publish images contained in a directory.'''
